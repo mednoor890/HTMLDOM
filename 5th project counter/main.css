@@ -1,0 +1,41 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url("img/hi.jfif")center/cover no-repeat;
+text-transform: capitalize;
+color:black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.box-container{
+text-align: center;
+padding: 2rem;
+flex: 0 0 70%;
+border: 3px solid black;
+font-weight: bold;
+box-shadow: 3px 3px 10px 10px black;
+border-radius: 22px;
+}
+.counter{
+    font-size: 5rem;
+}
+.btn{
+    background:#fff ;
+    border-radius: 22px;
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid springgreen;
+    margin: 0.5rem 0.25rem;
+    box-shadow: 0px 10px #1454a1;
+}
+.btn:hover{
+    color: blanchedalmond;
+    background: black;
+}
+.btn:active{
+    box-shadow: none;
+}

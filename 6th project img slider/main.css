@@ -1,0 +1,50 @@
+body{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: url("img/hi.jfif");
+}
+.images{
+    background: gold;
+    flex: 0 0 80%;
+    min-height: 70vh;
+background: url("img/me.jpg") center/cover no-repeat;
+border-radius: 15px;
+box-shadow: 5px 10px cadetblue;
+position: relative;
+}
+.btn{
+    display: inline-block;
+    background: brown;
+    color: burlywood;
+    border: 3px solid cadetblue;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem;;
+    box-shadow:2px 5px cadetblue ;
+    border-radius: 25px;
+
+}
+.prevBtn{
+    position:absolute;
+    top: 50%;
+    left:0;
+    transform: translate(-50%,-50%);
+}
+.nextBtn{
+    position:absolute;
+    top: 50%;
+    right:0;
+    transform: translate(50%,-50%);
+
+}
+.btn:active{
+    background:brown ;
+     box-shadow: 1px 1px burlywood;
+}
+.btn:hover{
+    background:burlywood;
+    color:brown;
+}

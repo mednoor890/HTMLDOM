@@ -1,0 +1,28 @@
+body{
+    font-family:sans-serif;
+    margin: 0 50px;
+}
+.container
+{
+    display:flex;
+    gap: 50px; /*this is a shorthand for gap-row gap column */
+}
+#posts{
+    width: 400px;
+}
+i{
+    cursor:pointer
+}
+#posts div
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    gap: 25px;
+}
+#msg{
+    color:red
+}
